@@ -26,6 +26,9 @@ dependencies:
   '@trpc/server':
     specifier: ^10.26.0
     version: registry.npmmirror.com/@trpc/server@10.26.0
+  framer-motion:
+    specifier: ^10.12.22
+    version: registry.npmmirror.com/framer-motion@10.12.22(react-dom@18.2.0)(react@18.2.0)
   next:
     specifier: ^13.4.2
     version: registry.npmmirror.com/next@13.4.2(react-dom@18.2.0)(react@18.2.0)
@@ -112,6 +115,23 @@ packages:
     dependencies:
       regenerator-runtime: registry.npmmirror.com/regenerator-runtime@0.13.11
     dev: true
+
+  registry.npmmirror.com/@emotion/is-prop-valid@0.8.8:
+    resolution: {integrity: sha512-u5WtneEAr5IDG2Wv65yhunPSMLIpuKsbuOktRojfrEiEvRyC85LgPMZI63cr7NUqT8ZIGdSVg8ZKGxIug4lXcA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz}
+    name: '@emotion/is-prop-valid'
+    version: 0.8.8
+    requiresBuild: true
+    dependencies:
+      '@emotion/memoize': registry.npmmirror.com/@emotion/memoize@0.7.4
+    dev: false
+    optional: true
+
+  registry.npmmirror.com/@emotion/memoize@0.7.4:
+    resolution: {integrity: sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@emotion/memoize/-/memoize-0.7.4.tgz}
+    name: '@emotion/memoize'
+    version: 0.7.4
+    dev: false
+    optional: true
 
   registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.40.0):
     resolution: {integrity: sha512-1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz}
@@ -3564,6 +3584,27 @@ packages:
     name: fraction.js
     version: 4.2.0
     dev: true
+
+  registry.npmmirror.com/framer-motion@10.12.22(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-bBGYPOxvxcfzS7/py9MEqDucmXBkVl2g42HNlXXPieSTSGGkr8L7+MilCnrU6uX3HrNk/tcB++1SkWE8BosHFw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/framer-motion/-/framer-motion-10.12.22.tgz}
+    id: registry.npmmirror.com/framer-motion/10.12.22
+    name: framer-motion
+    version: 10.12.22
+    peerDependencies:
+      react: ^18.0.0
+      react-dom: ^18.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      react: registry.npmmirror.com/react@18.2.0
+      react-dom: registry.npmmirror.com/react-dom@18.2.0(react@18.2.0)
+      tslib: registry.npmmirror.com/tslib@2.6.0
+    optionalDependencies:
+      '@emotion/is-prop-valid': registry.npmmirror.com/@emotion/is-prop-valid@0.8.8
+    dev: false
 
   registry.npmmirror.com/fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/fs.realpath/-/fs.realpath-1.0.0.tgz}
