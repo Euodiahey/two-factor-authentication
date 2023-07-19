@@ -47,9 +47,6 @@ dependencies:
   react-dom:
     specifier: 18.2.0
     version: registry.npmmirror.com/react-dom@18.2.0(react@18.2.0)
-  react-toastify:
-    specifier: ^9.1.3
-    version: registry.npmmirror.com/react-toastify@9.1.3(react-dom@18.2.0)(react@18.2.0)
   superjson:
     specifier: 1.12.2
     version: registry.npmmirror.com/superjson@1.12.2
@@ -5068,20 +5065,6 @@ packages:
       '@react-stately/tree': registry.npmmirror.com/@react-stately/tree@3.7.0(react@18.2.0)
       '@react-types/shared': registry.npmmirror.com/@react-types/shared@3.18.1(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
-    dev: false
-
-  registry.npmmirror.com/react-toastify@9.1.3(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-fPfb8ghtn/XMxw3LkxQBk3IyagNpF/LIKjOBflbexr2AWxAH1MJgvnESwEwBn9liLFXgTKWgBSdZpw9m4OTHTg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/react-toastify/-/react-toastify-9.1.3.tgz}
-    id: registry.npmmirror.com/react-toastify/9.1.3
-    name: react-toastify
-    version: 9.1.3
-    peerDependencies:
-      react: '>=16'
-      react-dom: '>=16'
-    dependencies:
-      clsx: registry.npmmirror.com/clsx@1.2.1
-      react: registry.npmmirror.com/react@18.2.0
-      react-dom: registry.npmmirror.com/react-dom@18.2.0(react@18.2.0)
     dev: false
 
   registry.npmmirror.com/react@18.2.0:
