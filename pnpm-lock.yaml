@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@formkit/auto-animate':
+    specifier: ^0.7.0
+    version: registry.npmmirror.com/@formkit/auto-animate@0.7.0
   '@prisma/client':
     specifier: ^5.0.0
     version: registry.npmmirror.com/@prisma/client@5.0.0(prisma@5.0.0)
@@ -236,6 +239,12 @@ packages:
     version: 0.4.0
     dependencies:
       tslib: registry.npmmirror.com/tslib@2.6.0
+    dev: false
+
+  registry.npmmirror.com/@formkit/auto-animate@0.7.0:
+    resolution: {integrity: sha512-RczHUr0AhRPssREoNdRjLfk2b/id9/DFnbIq18QM8L7E4zNV3XH+WO480EZ46BQHDEsv76YPJ0JbG2Y2i3GfXw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@formkit/auto-animate/-/auto-animate-0.7.0.tgz}
+    name: '@formkit/auto-animate'
+    version: 0.7.0
     dev: false
 
   registry.npmmirror.com/@humanwhocodes/config-array@0.11.10:
