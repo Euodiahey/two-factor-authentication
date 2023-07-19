@@ -11,12 +11,13 @@ datasource db {
 }
 
 model Totp {
-    id        String  @id @default(cuid())
-    issuer    String?
-    label     String?
-    algorithm String?
-    secret    String?
-    period    Int?
-    digits    Int?
+    id        String @id @default(cuid())
+    issuer    String
+    label     String
+    algorithm String
+    secret    String
+    period    Int
+    digits    Int
+
     @@index([id])
 }
