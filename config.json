@@ -1,0 +1,24 @@
+{
+    "config": [
+        {
+            "name": "title",
+            "options": [
+                {
+                    "type": "text",
+                    "key": "title",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "name": "description",
+            "options": [
+                {
+                    "type": "text",
+                    "key": "description",
+                    "value": ""
+                }
+            ]
+        }
+    ]
+}
